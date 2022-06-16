@@ -66,7 +66,7 @@ void PrimeGenerator::generate() {
     }
 
     write_mutex.lock();
-
+    delete[] x;
     f.close();
 }
 
